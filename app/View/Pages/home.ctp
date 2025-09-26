@@ -104,7 +104,7 @@ if (isset($filePresent)):
 		<?php
 			if ($connected && $connected->isConnected()):
 				echo '<span class="notice success">';
-					echo __d('cake_dev', 'CakePHP is able to connect to the database.');
+					echo __d('cake_dev', 'CakePHP is able to connect to the database.test');
 				echo '</span>';
 			else:
 				echo '<span class="notice">';
@@ -226,5 +226,7 @@ You can also add some CSS styles for your pages at: %s.',
 	<li><a href="https://cakefest.org"><?php echo __d('cake_dev', 'CakeFest'); ?> </a>
 	<ul><li><?php echo __d('cake_dev', 'Don\'t miss our annual CakePHP conference'); ?></li></ul></li>
 	<li><a href="https://cakefoundation.org"><?php echo __d('cake_dev', 'Cake Software Foundation'); ?> </a>
+	<ul><li><?php echo __d('cake_dev', 'Promoting development related to CakePHP'); ?></li></ul></li>
+	<ul><li><?php echo __d('cake_dev', 'Promoting development related to CakePHP'); ?></li></ul></li>
 	<ul><li><?php echo __d('cake_dev', 'Promoting development related to CakePHP'); ?></li></ul></li>
 </ul>
